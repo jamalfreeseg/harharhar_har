@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/52.png">
+    <title>Websiteku</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- CSS tambahan karena kita menggunakan layout blog bawaan boostrap 5 -->
+    <link href="css/blog.css" rel="stylesheet">
+
+<body class="body">
+
+    <!-- navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top">
+        <div class="container">
+
+            <a class="navbar-brand" href="#">Dicky Mulyana Web 2020</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-right" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2-lg-0">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#artikel">Artikel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#galeri">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tentang">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- penutup navbar-->
+
+    <main class="container">
+        <!-- Ini Header -->
+        <div class="p-4 p-md-5 mb-4 header">
+            <div class="col-md-6 px-0" style="color: white;">
+                <h1 class="display-4 fst-italic">Selamat Datang Di Web Saya</h1>
+                <p class="lead my-3"> Hello word<br>
+                    <a href="#artikel">
+                        <button type="button" class="btn btn-dark btn-lg">Cek Artikel</button>
+                    </a>
+                </p>
+            </div>
+        </div>
+        <!-- Penutup Ini Header -->
+
+        <!-- Ini Artikel -->
+        <div class="row g-5">
+            <div class="col-md-8">
+                <h3 class="pb-4 mb-4 fst-italic border-bottom text-center"> Artikel-Artikel</h3>
+                <article class="blog-post" id="artikel">
+                    <h2 class="blog-post-title">A R T I K E L 1</h2>
+                    <p class="blog-post-meta">January 1, 2021 by <a href="login.html">Admin</a></p>
+                    <p style="text-align: justify; text-indent: 2%;">ini merupakan rangkaian kata yang nanti akan menjadi
+                        isi dari artikel nya ini merupakan rangkaian kata yang
+                        nanti akan menjadi isi dari artikel nyaini merupakan rangkaian
+                        kata yang nanti akan menjadi isi dari artikel nyaini merupakan
+                        rangkaian kata yang nanti akan menjadi isi dari artikel
+                    </p>
+                    <hr>
+                    <article class="blog-post">
+                        <h2 class="blog-post-title">A R T I K E L 2 </h2>
+                        <p class="blog-post-meta">December 23, 2020 by <a href="login.html">Admin</a></p>
+                        <p style="text-align: justify; text-indent: 2%;">ini merupakan rangkaian kata yang nanti akan menjadi isi
+                            dari artikel nya ini
+                            merupakan rangkaian kata yang nanti akan menjadi isi dari artikel nyaini merupakan
+                            rangkaian kata yang nanti akan menjadi isi dari artikel
+                            nyaini merupakan rangkaian kata yang nanti akan menjadi isi dari artikel nya
+                        </p>
+                        <hr>
+                        <article class="blog-post">
+                            <h2 class="blog-post-title">A R T I K E L 3 </h2>
+                            <p class="blog-post-meta">December 23, 2020 by <a href="login.html">Admin</a></p>
+                            <p style="text-align: justify; text-indent: 2%;">ini merupakan rangkaian kata yang nanti akan menjadi isi
+                                dari artikel nya ini
+                                merupakan rangkaian kata yang nanti akan menjadi isi dari artikel nyaini merupakan
+                                rangkaian kata yang nanti akan menjadi isi dari artikel
+                                nyaini merupakan rangkaian kata yang nanti akan menjadi isi dari artikel nya
+                            </p>
+                        <br>
+                        <br>
+                    </article>
+                    <nav class="blog-pagination" aria- label="Pagination">
+                        <a class="btn btn-outline-primary" href="#">Older</a>
+                        <a class="btn btn-outline-secondarydisabled">Newer</a>
+                    </nav>
+            </div>
+            <!-- Ini Penutup Artikel -->
+
+            <!-- Ini About -->
+            <div class="col-md-4">
+                    <div class="p-4 mb-3 about">
+                        <h4 class="fst-italic" id="tentang" style="color: white;">About</h4>
+                        <a href="">About juga bisa di simpan di sini 1</a>
+                        <br>
+                        <a href="">About juga bisa di simpan di sini 2</a>
+                    </div>
+                    <div class="p-4 mb-3 archive">
+                        <h4 class="fst-italic" style="color: red;">Archives</h4>
+                        <ol class="list-unstyled mb-0">
+                            <li><a href="#" >March 2021</a></li>
+                            <li><a href="#">February 2021</a></li>
+                        </ol>
+                    </div>
+            </div>
+            <!-- Ini Penutup About -->
+
+        </div>
+    </main>
+    <br>
+    <br>
+
+    <!-- Ini Footer -->
+    <footer class="bg-light text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            <p>&copy; 2020 Dickyweb.com. &middot; <a href="#">Privacy &middot; </a><a href="#">Terms</a></p>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Ini PenutupFooter -->
+
+</body>
+</head>
+
+</html>

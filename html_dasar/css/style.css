@@ -1,0 +1,16 @@
+
+.header{
+    background-image: url('../img/head.jpg');
+    background-size: cover;
+}
+.about{
+    background-image: url('../img/11.jpg');
+    background-size: cover;
+}
+.body{
+    background: linear-gradient(to right, #b92b27, #1565c0);
+}
+.archive{
+    background-image: url('../img/3.webp');
+    background-size: cover;
+}
